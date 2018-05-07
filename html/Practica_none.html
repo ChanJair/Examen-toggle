@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="../../../24042018/css/bootstrap.min.css" />
+    <script>
+        function esconde_div(){
+           var elemento = document.getElementById("capa");
+           elemento.style.display = 'none';
+        }
+         
+        function visible_div(){
+           var elemento = document.getElementById("capa");
+           elemento.style.display = 'block';
+        }
+        </script>
+</head>
+<body>
+
+    <input type="button" onclick="javascript:esconde_div();" value="Ocultar div" />
+    <input type="button" onclick="javascript:visible_div();" value="div visible" />
+    <div id="capa">esto es una capa</div>
+
+</body>
+</html>

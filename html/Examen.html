@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Examen</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="../../24042018/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="../css/Estilo_examen.css" />
+    <script src="../js/Examen.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="row nav">
+            <div class="col-12 titulo  d-flex justify-content-center align-items-center">Examen</div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 col-12">
+                <div class="card">
+                    <div class="card-header a">Diferencia entre etiqueta p y div</div>
+                    <div class="card-body respuesta" id= "capa">
+                        La etiqueta p tiene propiedades css predefinidas mientras que div no
+                    </div>
+                </div>
+                <button type="button" class="btn btn-info btn-block" onClick="ocultar()">Ocultar</button>
+            </div>
+            <div class="col-md-4 col-12">
+                <div class="card">
+                    <div class="card-header a">¿Que es minificacion de css?</div>
+                    <div class="card-body respuesta" id= "capa1">
+                        Se trata de la compactacion o resumen de un codigo que reduce su espacio en memoria
+                    </div>
+                </div>
+                <button type="button" class="btn btn-info btn-block" onclick="ocultar1()">Ocultar</button>
+            </div>
+            <div class="col-md-4 col-12">
+                <div class="card">
+                    <div class="card-header a">Menciona 3 librerias de FrontEnd</div>
+                    <div class="card-body respuesta" id= "capa2">
+                        Boopstrap, Angular, Fundation
+                    </div>
+                </div>
+                <button type="button" class="btn btn-info btn-block" onclick="ocultar2()">Ocultar</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 col-12">
+                <div class="card">
+                    <div class="card-header a">¿Porque no usar WYSIWYG o CSM?</div>
+                    <div class="card-body respuesta" id= "capa3">
+                        Seguridas, Responsividad, Personalizacion, SEO
+                    </div>
+                </div>
+                <button type="button" class="btn btn-info btn-block" onClick="ocultar3()">Ocultar</button>
+            </div>
+            <div class="col-md-4 col-12">
+                <div class="card">
+                    <div class="card-header a">¿Como poner variables en css?</div>
+                    <div class="card-body respuesta" id= "capa4">
+                        :root{ --nombre de variables: valor;}
+                    </div>
+                </div>
+                <button type="button" class="btn btn-info btn-block" onClick="ocultar4()">Ocultar</button>
+            </div>
+            <div class="col-md-4 col-12">
+                <div class="card">
+                    <div class="card-header a">¿Que es un preprocesador de css?</div>
+                    <div class="card-body respuesta" id= "capa5">
+                        Codigos resumidos y faciles de modificar que contienen variables, funciones, etc.
+                    </div>
+                </div>
+                <button type="button" class="btn btn-info btn-block" onClick="ocultar5()">Ocultar</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 col-12">
+                <div class="card">
+                    <div class="card-header a">Menciona 2 preprocesadores css</div>
+                    <div class="card-body respuesta" id= "capa6">
+                        SASS, LESS
+                    </div>
+                </div>
+                <button type="button" class="btn btn-info btn-block" onClick="ocultar6()">Ocultar</button>
+            </div>
+            <div class="col-md-4 col-12">
+                <div class="card">
+                    <div class="card-header a">¿Diferencia entre innerHTML vs write?</div>
+                    <div class="card-body respuesta" id= "capa7">
+                        Uno muestra palabras y el otro muestra contedido del codigo
+                    </div>
+                </div>
+                <button type="button" class="btn btn-info btn-block" onClick="ocultar7()">Ocultar</button>
+            </div>
+            <div class="col-md-4 col-12">
+                <div class="card">
+                    <div class="card-header a">¿Que es una libreria?</div>
+                    <div class="card-body respuesta" id= "capa8">
+                        Es una recopilacion de contenido en codigo que facilitan el trabajo de programacion 
+                    </div>
+                </div>
+                <button type="button" class="btn btn-info btn-block" onClick="ocultar8()">Ocultar</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 col-12">
+                <div class="card">
+                    <div class="card-header a">¿Que es getElementById?</div>
+                    <div class="card-body respuesta" id= "capa9">
+                        Es un output de javascript
+                    </div>
+                </div>
+                <button type="button" class="btn btn-info btn-block" onClick="ocultar9()">Ocultar</button>
+            </div>
+            <div class="col-md-4 col-12">
+                <div class="card">
+                    <div class="card-header a">3 eventos para ejecutar JavaScript</div>
+                    <div class="card-body respuesta" id= "capa10">
+                        Onclick, load, mouseover
+                    </div>
+                </div>
+                <button type="button" class="btn btn-info btn-block"onClick="ocultar10()">Ocultar</button>
+            </div>
+            <div class="col-md-4 col-12">
+                <div class="card">
+                    <div class="card-header a">Diferencia entre JavaScript y Java</div>
+                    <div class="card-body respuesta" id= "capa11">
+                        El primero es un lenguaje estructurado
+                    </div>
+                </div>
+                <button type="button" class="btn btn-info btn-block" onClick="ocultar11()">Ocultar</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
